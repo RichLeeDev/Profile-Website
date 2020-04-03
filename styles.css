@@ -79,7 +79,7 @@ color: white;
 
 header {
 text-align: center;
-background: url('images/portland.jpg') no-repeat;
+background: url('https://cdn.pixabay.com/photo/2015/10/09/14/51/hollywood-sign-979399_960_720.jpg') no-repeat;
 background-size: cover;
 overflow: hidden;
 padding-top: 60px;
@@ -97,6 +97,11 @@ transition: all .5s;
 }
 header .profile-image:hover {
 transform: scale(1.2);
+}
+.port-head {
+  margin-top: 60px;
+  font-family : serif;
+  font-size: 64px;
 }
 .tag {
 background-color: black;
@@ -136,7 +141,7 @@ transform: scale(1.15);
 
 .title-card {
   color: black;
-  border: auto;
+  border: 5px;
 }
 
 ul.skills {
@@ -245,5 +250,3 @@ margin: 40px auto;
 }
 
 }
-
-</style>
